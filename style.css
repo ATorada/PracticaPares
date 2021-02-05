@@ -1,0 +1,143 @@
+
+
+
+/* --------------------  Imports y estilo de la página base -------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body{
+    background-color: rgb(255, 174, 24);
+    margin: 3px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+/* Footer */
+
+hr {
+    color: white;
+    margin-bottom: 1%;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 117, 102);
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1%;
+}
+
+
+/* Cabecera */
+
+header {
+    padding-top: 0.3%;
+}
+
+header h1 {
+    
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: Sriracha;
+    text-transform: uppercase;
+}
+
+/* Menú */
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(188, 236, 255);
+    padding-bottom: 1.3%;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    border: 1px black solid;
+    margin-left: 0.5%;
+    padding: 0.2%;
+}
+
+
+nav ul li:hover {
+background-color: orange;
+}
+
+
+/*-------------------- Principal --------------------*/
+
+/* Section Steve */
+
+section.Steve {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: white;
+    width: 100%;
+}
+
+section.Steve img {
+    float: left;
+    width: 250px;
+    height: 203px;
+}
+
+section.Steve p {
+    margin-top: 0%;
+    text-align: left;
+    color: blue;
+}
+
+p.top {
+   border-top: blue 25px solid ;
+}
+
+p.bottom {
+    padding-top: 20px;
+    border-bottom: blue 25px solid ;
+ }
+
+
+/* Section Computer */
+
+
+ section.Computer {
+    background-color: rgb(87, 187, 226);
+    padding-top: 0.5%;
+    padding-bottom: 4.9%;
+ }
+
+ section.Computer img {
+    padding-top: 16px;
+    width: 250px;
+    height: 203px;
+    float: right;
+}
+
+section.Computer p {
+    color: red;
+    border-top: red solid 25px;
+    border-bottom: red solid 25px;
+}
+
+
+
+
+/*-------------------- Productos --------------------*/
+
+/* Lista */
+
+section ul {
+    margin-left: 5%;
+    background-color: rgb(255, 247, 231);
+    list-style-type: katakana-iroha;
+}
+
+section ul li {
+    padding: 0.5%;
+}
+
